@@ -1,5 +1,5 @@
 # Graph Extractor
-Preliminary Python code to extract a weighted graph from thinned images (similar to NEFI).
+(Very) preliminary Python code to extract a weighted graph from thinned images (similar to NEFI).
 
 The image is first thinned to obtain a "quasi-1D" appearance and then it is convoluted with several matrix kernels, each one identifying leaves and many kinds of intersections.
 
@@ -11,4 +11,5 @@ The output object is a NetworkX undirected, weighted graph ready to analyze as y
 Being based on Numpy convolution functions, the most CPU intensive stuff is automatically distributed among all your cores, and it scales pretty well.
 
 Have fun!
+
 marco
