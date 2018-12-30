@@ -13,3 +13,5 @@ Being based on Numpy convolution functions, the most CPU intensive stuff is auto
 Have fun!
 
 marco
+
+Note: this code has been written by me with helpful suggestions from Giovanni Busonera.
