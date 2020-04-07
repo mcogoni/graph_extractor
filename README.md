@@ -1,6 +1,8 @@
 # Graph Extractor
 (Very) preliminary Python code to extract a weighted graph from thinned images (similar to NEFI).
 
+![photo by Matt Axisa](https://github.com/mcogoni/graph_extractor/blob/master/eaten%20leaf.jpeg)
+
 The image is first thinned to obtain a "quasi-1D" appearance and then it is convoluted with several matrix kernels, each one identifying leaves and many kinds of intersections.
 
 Hope to clean up the code and add some more comments, but the notebook should be quite self explanatory and easy to use.
